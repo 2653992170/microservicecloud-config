@@ -1,0 +1,17 @@
+info:
+  name: lession-2-sms-interface
+server:
+  port: 9003
+
+# 调用refresh的时候不校验权限
+management:
+  security:
+    enabled: false
+
+tony:
+  configString: 这是生产环境
+  prodString: 生产环境特有的配置
+
+redis:
+  host: localhost
+  port: 6379

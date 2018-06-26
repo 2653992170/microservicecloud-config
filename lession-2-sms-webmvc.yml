@@ -1,0 +1,17 @@
+info:
+  name: lession-2-sms-webmvc
+server:
+  port: 9002
+
+# 调用refresh的时候不校验权限
+management:
+  security:
+    enabled: false
+
+tony:
+  configString: 222222222
+  test: 这是webmvc的配置
+
+redis:
+  host: localhost
+  port: 6379

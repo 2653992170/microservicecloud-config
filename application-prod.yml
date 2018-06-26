@@ -1,0 +1,9 @@
+# 这个会被所有应用读取到，用来做公共配置
+spring:
+  rabbitmq:
+    host: 192.168.99.100
+    username: guest
+    # 密文需要以{cipher}做为标识
+    password: '{cipher}31010f99731d4bd8aa7e3ce76152b5686265e1160043aac7cf769c3c8e1bb7ef'
+tony:
+  applicationText: 这是生产环境公共配置
