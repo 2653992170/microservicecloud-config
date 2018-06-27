@@ -7,6 +7,13 @@ server:
 management:
   security:
     enabled: false
+    
+spring:
+  rabbitmq:
+    host: 192.168.1.101
+    port: 5672
+    username: guest
+    password: '{cipher}20c45f5fb2c588bae51565ba7ea78a3d4cd0cc754805f3c65629eb64a5b6576c'
 
 tony:
   configString: 这是开发环境--测试一下
