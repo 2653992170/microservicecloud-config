@@ -16,7 +16,7 @@ spring:
     password: '{cipher}20c45f5fb2c588bae51565ba7ea78a3d4cd0cc754805f3c65629eb64a5b6576c'
 
 tony:
-  configString: 这是开发环境
+  configString: 这是开发环境--test
   devString: 开发环境特有的配置
 redis:
   host: localhost
